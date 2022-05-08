@@ -1,0 +1,9 @@
+<div class="container-books">
+                    <div class="cad-book" *ngFor="let item of resultados" >
+                            <img src="{{item.img}}" alt="{{item.name}}"/>
+                            <!-- <h1  routerLink = "detalle/{{item._id}}">{{item.name}}</h1> -->
+                            <p>{{item.description}}</p>
+                    </div>
+             
+</div>
+

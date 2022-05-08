@@ -1,0 +1,14 @@
+<div class="container">
+    
+            <div class="card-autors">
+                 <div class="book" *ngFor="let item of resultados" >
+                            <img src={{item.img}} alt="tapa del libro">
+                            <h1  routerLink = "detalle/{{item.id}}" >{{item.name}}</h1>
+                            <p>{{item.editorial}}</p>
+                            <p>{{item.year}}</p>
+                            <p>{{item.description}}</p>
+                    </div>
+                    
+            </div>
+    
+</div>
